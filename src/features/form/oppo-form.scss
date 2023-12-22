@@ -1,0 +1,34 @@
+.oppo-container {
+    background-color: lightgray;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+  
+form {
+    display: inline-block;
+}
+  
+// input {
+//     border: 1px solid;
+//     border-color: gray;
+//     text-align: right;
+// }
+  
+button {
+    margin: 1em 0 1em 0;
+    display: block;
+}
+  
+.output {
+    border-color: lightgray;
+    border: 1px dashed;
+    &-monospace{
+      font-family: 'Courier New', monospace;
+    }
+}
+  
+.error {
+    border: 1px solid red;
+}
