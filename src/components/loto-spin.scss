@@ -1,0 +1,18 @@
+.loto-spin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(45deg, #FFC107, #0ef877);
+}
+.text{
+    position: absolute;
+    top: 5rem;
+    text-align: center;
+}
+.start-spin {
+    position: absolute;
+    bottom: 5rem;
+    z-index: 1000;
+}
